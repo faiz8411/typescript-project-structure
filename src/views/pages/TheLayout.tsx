@@ -1,18 +1,13 @@
-import React from 'react'
-import { Footer } from './common/Footer'
-import { Header } from './common/Header'
-import { Main } from './common/Main'
+import React from "react";
+import { Header } from "./common/Header";
 
-export const TheLayout = () => {
+const TheLayout = () => {
   return (
-      <div>
-          <div> <Header /></div>
-          <div>
-              <main>
-                 <Main/>
-              </main>
-         </div>
-          <div><Footer/></div>
+    <div>
+      <Header />
+      <button>search</button>
     </div>
-  )
-}
+  );
+};
+
+export default TheLayout;

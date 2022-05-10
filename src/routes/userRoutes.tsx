@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function userRoutes() {
-  return (
-    <div>userRoutes</div>
-  )
-}
+const UserRoutes = () => {
+  return <div></div>;
+};
 
-export default userRoutes
+export default UserRoutes;

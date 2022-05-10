@@ -1,4 +1,5 @@
-const publicRoutes = [{
-    path: "/",
-    name:"home"
-}]
+import React from "react";
+
+export const publicRoutes = () => {
+  return <div>publicRoutes</div>;
+};

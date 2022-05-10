@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const adminRoutes = () => {
-  return (
-    <div>adminRoutes</div>
-  )
-}
+  return <div>adminRoutes</div>;
+};
