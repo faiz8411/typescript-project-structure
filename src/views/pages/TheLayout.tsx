@@ -1,11 +1,14 @@
 import React from "react";
 import { Header } from "./common/Header";
+import Main from "./common/Main";
 
 const TheLayout = () => {
   return (
     <div>
       <Header />
-      <button>search</button>
+      <main>
+        <Main />
+      </main>
     </div>
   );
 };
